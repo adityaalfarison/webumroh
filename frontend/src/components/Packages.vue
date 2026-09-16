@@ -45,7 +45,7 @@
               <p class="text-secondary small">{{ item.description }}</p>
 
               <a
-                :href="`https://wa.me/6281234567890?text=${encodeURIComponent('Assalamualaikum, saya tertarik dengan paket ' + item.name)} `"
+                :href="`https://wa.me/6281212301008?text=${encodeURIComponent('Assalamualaikum, saya tertarik dengan paket ' + item.name)} `"
                 target="_blank"
                 class="btn btn-gold w-100 mt-2"
               >
