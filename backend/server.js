@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-const PORT = 3000;
 
 app.use(cors());
 app.use(express.json());
@@ -61,9 +60,10 @@ app.get("/api/packages/:id", (req, res) => {
 });
 
 app.get("/api/health", (req, res) => {
-  res.json({ success: true, message: "API Travel Umroh aktif" });
+  res.json({
+    success: true,
+    message: "API Travel Umroh aktif"
+  });
 });
 
-app.listen(PORT, () => {
-  console.log(`Backend berjalan di http://localhost:${PORT}`);
-});
+module.exports = app;

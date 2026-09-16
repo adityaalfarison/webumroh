@@ -75,7 +75,7 @@ const formatPrice = (value) =>
 
 onMounted(async () => {
   try {
-    const response = await fetch("http://localhost:3000/api/packages");
+    const response = await fetch("/api/packages");
     if (!response.ok) throw new Error("Gagal mengambil data");
     const result = await response.json();
     packages.value = result.data;
