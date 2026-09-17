@@ -29,7 +29,7 @@
         </div>
 
         <div class="client-logo">
-          <img src="/client/angkasa-pura.png" alt="Angkasa Pura">
+          <img src="/client/angkasapura.png" alt="Angkasa Pura">
         </div>
 
         <div class="client-logo">
