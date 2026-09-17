@@ -11,6 +11,7 @@
       <Gallery />
       <Testimonials />
       <Contact />
+      <OurClient />
     </main>
 
     <Footer />
@@ -37,4 +38,5 @@ import Gallery from "./components/Gallery.vue";
 import Testimonials from "./components/Testimonials.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
+import OurClient from "./components/OurClient.vue";
 </script>

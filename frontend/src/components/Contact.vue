@@ -35,7 +35,7 @@
               <i class="bi bi-geo-alt fs-3"></i>
               <div>
                 <div class="fw-bold">Kantor</div>
-                <div class="text-white-50">Jakarta, Indonesia</div>
+                <div class="text-white-50">Jl.Malaka Merah Raya No.7/6 Pondok Kopi Duren Sawit. JAKARTA TIMUR</div>
               </div>
             </div>
 

@@ -730,3 +730,166 @@ h1, h2, h3, .serif {
   font-size: 20px;
   cursor: pointer;
 }
+
+/* =========================
+   OUR CLIENT
+   ========================= */
+
+.our-client {
+  position: relative;
+  padding: 80px 0;
+  background-color: #f5f5f2;
+  background-image:
+    radial-gradient(circle, rgba(29, 91, 75, .25) 2px, transparent 2px);
+  background-size: 22px 22px;
+  overflow: hidden;
+}
+
+/* bikin area tengah lebih bersih */
+.our-client::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, .88);
+  z-index: 0;
+}
+
+.our-client .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Judul */
+.client-title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.client-title h2 {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #09284b;
+}
+
+/* Grid logo */
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 45px 60px;
+}
+
+/* Logo */
+.client-logo {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-logo img {
+  max-width: 90%;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: .25s ease;
+}
+
+.client-logo img:hover {
+  transform: scale(1.05);
+}
+
+
+/* =========================
+   TABLET
+   ========================= */
+
+@media (max-width: 991px) {
+
+  .our-client {
+    padding: 65px 0;
+  }
+
+  .client-title {
+    margin-bottom: 40px;
+  }
+
+  .client-title h2 {
+    font-size: 40px;
+  }
+
+  .client-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px 25px;
+  }
+
+  .client-logo {
+    height: 110px;
+  }
+
+  .client-logo img {
+    max-height: 100px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 575px) {
+
+  .our-client {
+    padding: 55px 0;
+  }
+
+  .client-title {
+    margin-bottom: 30px;
+  }
+
+  .client-title h2 {
+    font-size: 32px;
+  }
+
+  .client-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 15px;
+  }
+
+  .client-logo {
+    height: 85px;
+  }
+
+  .client-logo img {
+    max-width: 95%;
+    max-height: 75px;
+  }
+}
+
+
+/* HP kecil */
+@media (max-width: 375px) {
+
+  .client-title h2 {
+    font-size: 28px;
+  }
+
+  .client-grid {
+    gap: 20px 10px;
+  }
+
+  .client-logo {
+    height: 75px;
+  }
+
+  .client-logo img {
+    max-height: 65px;
+  }
+
+}
