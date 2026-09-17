@@ -7,7 +7,7 @@
       </div>
 
       <div class="row g-4">
-        <div v-for="item in reasons" :key="item.title" class="col-md-6 col-lg-3">
+        <div v-for="item in reasons" :key="item.title" class="col-md-6 col-lg-4">
           <div class="why-box">
             <div class="icon-box"><i :class="item.icon"></i></div>
             <h4>{{ item.title }}</h4>
@@ -40,6 +40,21 @@ const reasons = [
     icon: "bi bi-headset",
     title: "Layanan Responsif",
     text: "Tim kami siap membantu konsultasi sebelum dan selama persiapan keberangkatan."
+  },
+  {
+    icon: "bi bi-cash-coin",
+    title: "Pembayaran Cash",
+    text: "Tersedia pilihan pembayaran secara cash untuk memudahkan jamaah dalam melakukan pelunasan."
+  },
+  {
+    icon: "bi bi-calendar2-check",
+    title: "Cicilan & Dana Talangan",
+    text: "Tersedia pilihan cicilan atau dana talangan sesuai dengan ketentuan dan kebutuhan jamaah."
+  },
+  {
+    icon: "bi bi-piggy-bank",
+    title: "Tabungan Umroh",
+    text: "Persiapkan perjalanan ibadah dengan menabung secara bertahap hingga dana umroh tercukupi."
   }
 ];
 </script>
