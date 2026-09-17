@@ -18,6 +18,7 @@
           <a href="#paket" class="btn btn-gold">
             Lihat Paket <i class="bi bi-arrow-right ms-2"></i>
           </a>
+
           <a href="#kontak" class="btn btn-outline-green">
             Konsultasi Gratis
           </a>
@@ -25,4 +26,21 @@
       </div>
     </div>
   </section>
+
+  <section class="primary-video">
+  <div class="container">
+    <div class="video-wrapper">
+      <video
+        autoplay
+        loop
+        playsinline
+        preload="auto"
+        controls
+      >
+        <source src="/umroh.mp4" type="video/mp4" />
+        Browser Anda tidak mendukung video.
+      </video>
+    </div>
+  </div>
+</section>
 </template>

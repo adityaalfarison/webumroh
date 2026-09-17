@@ -66,4 +66,8 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-module.exports = app;
+const PORT = 3000;
+
+app.listen(PORT, () => {
+    console.log(`Server Express berjalan di http://localhost:${PORT}`);
+});
