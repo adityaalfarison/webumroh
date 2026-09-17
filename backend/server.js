@@ -11,7 +11,7 @@ const packages = [
     id: 1,
     name: "Umroh Hemat",
     duration: "9 Hari",
-    price: 28900000,
+    price: 33000000,
     airline: "Saudia Airlines",
     hotel: "Bintang 3",
     description: "Paket ekonomis dengan fasilitas nyaman untuk perjalanan ibadah yang tenang."
@@ -20,7 +20,7 @@ const packages = [
     id: 2,
     name: "Umroh Reguler",
     duration: "12 Hari",
-    price: 32900000,
+    price: 34000000,
     airline: "Garuda Indonesia",
     hotel: "Bintang 4",
     description: "Pilihan populer dengan hotel nyaman dan jadwal perjalanan yang seimbang."
@@ -28,8 +28,8 @@ const packages = [
   {
     id: 3,
     name: "Umroh Premium",
-    duration: "14 Hari",
-    price: 38900000,
+    duration: "16 Hari",
+    price: 37000000,
     airline: "Garuda Indonesia",
     hotel: "Bintang 5",
     description: "Perjalanan premium dengan fasilitas terbaik dan lokasi hotel strategis."
