@@ -9,29 +9,29 @@ app.use(express.json());
 const packages = [
   {
     id: 1,
-    name: "Umroh Hemat",
-    duration: "9 Hari",
-    price: 33000000,
-    airline: "Saudia Airlines",
-    hotel: "Bintang 3",
+    name: "SAFAWI",
+    duration: "12 Hari",
+    price: 33476000,
+    airline: "Saudia Airlines, Turkish Airlines, Lion Air, Batik Air",
+    hotel: "Le Meredien Tower, Grand Al Massa, Arkan Al manar",
     description: "Paket ekonomis dengan fasilitas nyaman untuk perjalanan ibadah yang tenang."
   },
   {
     id: 2,
-    name: "Umroh Reguler",
+    name: "SUKARI",
     duration: "12 Hari",
-    price: 34000000,
-    airline: "Garuda Indonesia",
-    hotel: "Bintang 4",
+    price: 36476000,
+    airline: "Saudia Airlines, Turkish Airlines, Lion Air, Batik Air",
+    hotel: "Anjum, Rayyana, Grand Plaza, Durrat Al Eiman",
     description: "Pilihan populer dengan hotel nyaman dan jadwal perjalanan yang seimbang."
   },
   {
     id: 3,
-    name: "Umroh Premium",
+    name: "MAJOL",
     duration: "16 Hari",
-    price: 37000000,
-    airline: "Garuda Indonesia",
-    hotel: "Bintang 5",
+    price: 42976000,
+    airline: "Saudia Airlines, Turkish Airlines, Lion Air, Batik Air",
+    hotel: "Movenpick, Durr Al Eiman Royale, Zam - Zam Tower, Taiba Front, Al Aqeeq, Shaza Regency Plaza, Badar Al Maqam",
     description: "Perjalanan premium dengan fasilitas terbaik dan lokasi hotel strategis."
   }
 ];
