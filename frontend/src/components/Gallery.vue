@@ -72,9 +72,8 @@ const photos = [
   "/foto25.png",
   "/foto26.png",
   "/foto27.png",
-  "/foto29.png",
-  "/foto30.png"
-];
+  "/foto29.png"
+  ];
 
 const videos = [
   "/video1.mp4",
