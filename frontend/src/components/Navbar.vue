@@ -52,7 +52,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link" href="#CompanyProfile">Company Profile</a>
+            <a class="nav-link" href="#compro">Company Profile</a>
           </li>
 
           <li class="nav-item ms-lg-3 mt-2 mt-lg-0">

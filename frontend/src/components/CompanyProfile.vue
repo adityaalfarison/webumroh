@@ -1,5 +1,5 @@
 <template>
-  <section id="profil" class="company-profile-section">
+  <section id="profil" class="compro">
     <div class="container">
 
       <!-- JUDUL -->
