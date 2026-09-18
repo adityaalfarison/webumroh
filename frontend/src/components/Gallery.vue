@@ -49,6 +49,31 @@ const photos = [
   "/foto2.png",
   "/foto3.png",
   "/foto4.png"
+  "/foto5.png",
+  "/foto6.png"
+  "/foto7.png",
+  "/foto8.png"
+  "/foto9.png",
+  "/foto10.png"
+  "/foto11.png",
+  "/foto12.png"
+  "/foto13.png",
+  "/foto14.png"
+  "/foto15.png",
+  "/foto16.png",
+  "/foto17.png",
+  "/foto18.png",
+  "/foto19.png",
+  "/foto20.png",
+  "/foto21.png",
+  "/foto22.png",
+  "/foto23.png",
+  "/foto24.png",
+  "/foto25.png",
+  "/foto26.png",
+  "/foto27.png",
+  "/foto29.png",
+  "/foto30.png"
 ];
 
 const videos = [
@@ -57,7 +82,10 @@ const videos = [
   "/video3.mp4",
   "/video4.mp4",
   "/video5.mp4",
-  "/video6.mp4"
+  "/video6.mp4",
+  "/video7.mp4",
+  "/video8.mp4",
+  "/video9.mp4"
 ];
 
 const pauseOtherVideos = (event) => {
