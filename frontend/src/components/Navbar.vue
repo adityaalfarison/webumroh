@@ -48,9 +48,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#galeri">Galeri</a>
           </li>
+          
+          
 
           <li class="nav-item">
-            <a class="nav-link" href="#kontak">Kontak</a>
+            <a class="nav-link" href="#CompanyProfile">Company Profile</a>
           </li>
 
           <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
