@@ -12,7 +12,6 @@
       <Testimonials />
       <CompanyProfile />
       <Contact />
-      <OurClient />
     </main>
 
     <Footer />
@@ -40,5 +39,4 @@ import Testimonials from "./components/Testimonials.vue";
 import CompanyProfile from "./components/CompanyProfile.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
-import OurClient from "./components/OurClient.vue";
 </script>
