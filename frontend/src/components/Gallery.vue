@@ -72,7 +72,10 @@ const photos = [
   "/foto25.png",
   "/foto26.png",
   "/foto27.png",
-  "/foto29.png"
+  "/foto28.png",
+  "/teuli.png",
+  "/teuli2.png",
+
   ];
 
 const videos = [
